@@ -1,20 +1,24 @@
 /* color palette from <https://github.com/vuejs/theme> */
-/* :root{
-	--Paleblue: hsl(225, 100%, 94%);
---Brightblue: hsl(245, 75%, 52%);
 
+// - Soft red: hsl(10, 79%, 65%)
+// - Cyan: hsl(186, 34%, 60%)
 
---Verypaleblue: hsl(225, 100%, 98%);
---Desaturatedblue: hsl(224, 23%, 55%);
---Darkblue: hsl(223, 47%, 23%);
-} */
+// ### Neutral
+
+// - Dark brown: hsl(25, 47%, 15%)
+// - Medium brown: hsl(28, 10%, 53%)
+// - Cream: hsl(27, 66%, 92%)
+// - Very pale orange: hsl(33, 100%, 98%)
 :root {
-  --main-color: hsl(245, 75%, 52%);
-  --sub-color: hsl(225, 100%, 94%);
+  --main-color: hsl(10, 79%, 65%);
+  --sub-color: hsl(186, 34%, 60%);
 
-  --text-white-color: hsl(225, 100%, 98%);
-  --text-color: hsl(224, 23%, 55%);
-  --Darkblue: hsl(223, 47%, 23%);
+  // ### Neutral
+
+  --Darkbrown: hsl(25, 47%, 15%);
+  --mediumB-color: hsl(28, 10%, 53%);
+  --Darkblue: hsl(27, 66%, 92%);
+  --pale-orane: hsl(33, 100%, 98%);
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
